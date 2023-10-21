@@ -1,0 +1,224 @@
+.expense-tracker {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #023047;
+  }
+  
+  .expense-tracker h1 {
+    font-size: 40px;
+  }
+  .expense-tracker button {
+    margin-left: 10px;
+  }
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 200px;
+  }
+  .profile-photo {
+    width: 200px;
+    border-radius: 50%;
+  }
+  
+  .sign-out-button {
+    border: none;
+    margin-top: 50px;
+    width: 150px;
+    background: #3498db;
+    background: linear-gradient(
+        90deg,
+        rgb(45, 46, 46) 0%,
+        rgb(15, 13, 17) 100%
+      );
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .sign-out-button:hover {
+    background: #3cb0fd;
+  
+    background: linear-gradient(
+        90deg,
+        rgb(45, 46, 46) 0%,
+        rgb(15, 13, 17) 100%
+      );
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .transactions {
+    margin-left: 430px;
+    margin-top: 20px;
+    padding-left: 10px;
+    width: 600px;
+    height: 400px;
+    overflow: auto;
+    border: 3px solid #023047;
+  }
+  /* CSS Animation */
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+  }
+  
+  .slide-in {
+    transform: translateX(-100%);
+    animation: slideIn 1s forwards;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+/* CSS Animation */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+.slide-in {
+  transform: translateX(-100%);
+  animation: slideIn 1s forwards;
+}
+
+.expense-tracker {
+  background: linear-gradient(to bottom, #536976, #292e49);
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  color: #ffcc29;
+}
+
+.balance h3, .summary h4 {
+  color: #d3d3d3;
+}
+
+.summary p {
+  color: #64ffda;
+}
+
+.add-transaction input, .add-transaction button {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border: none;
+}
+
+.add-transaction input::placeholder {
+  color: #d3d3d3;
+}
+
+.profile {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.profile-photo {
+  border-radius: 50%;
+}
+
+.sign-out-button {
+  background: #ff6b6b;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+/* CSS Animation */
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+  }
+  
+  .slide-in {
+    transform: translateX(-100%);
+    animation: slideIn 1s forwards;
+  }
+  
+  .expense-tracker {
+    background: linear-gradient(
+      90deg,
+      rgb(45, 46, 46) 0%,
+      rgb(15, 13, 17) 100%
+    );
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  h1 {
+    color: #f42f07;
+  }
+  
+  .balance h3, .summary h4 {
+    color: #d3d3d3;
+  }
+  
+  .summary p {
+    color: #64ffda;
+  }
+  
+  .add-transaction input, .add-transaction button {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border: none;
+  }
+  
+  .add-transaction input::placeholder {
+    color: #d3d3d3;
+  }
+  
+  .profile {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .profile-photo {
+    border-radius: 50%;
+  }
+  
+  .sign-out-button {
+    background: #ff6b6b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  /* Rest of your CSS */
+  
+/* Rest of your CSS */
+  
